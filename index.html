@@ -11,9 +11,22 @@
     <h1>Meal Planner</h1>
 
     <div class="homeButtons">
-        <button id = "ingredientsButton">Ingredients</button>
+        <button id = "ingredientsButton"  onclick="window.location.href='front end/ingredients.html'">Ingredients</button>
         <button id = "recipesButton">Recipes</button>
         <button id = "priorityInfoButton">Priorities</button>
+        <div id = "priorityDropDown">
+
+        </div>
+
+        <details>
+            <summary>priorities</summary>
+
+            <label><input type="checkbox" value = "price"> price</label><br>
+            <label><input type="checkbox" value = "calories"> calories</label><br>
+            <label><input type="checkbox" value = "protein"> protein</label><br>
+            <label><input type="checkbox" value = "sodium"> sodium</label><br>
+        </details>
+        <button id="showTags">Show Selected</button>
     </div>
 
     
@@ -24,7 +37,7 @@
     </div>
 
     <div id = "missingInfo">
-        <h4>Missing Information</h4>
+        <h4>Needs Information</h4>
     </div>
 
 
