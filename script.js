@@ -2,8 +2,8 @@ const mealInput = document.getElementById("mealInput");
 const mealList = document.getElementById("mealList");
 const ingredientsButton = document.getElementById("ingredientsButton");
 const prioritiesButton = document.getElementById("priorityInfoButton");
-const addIngredientButton = document.getElementById("addIngredientButton");
-const ingredientList = document.getElementById("ingredientList");
+const addIngredientButton = document.getElementById("addIngredientButton"); // null
+const ingredientList = document.getElementById("ingredientList");// null
 const showTagsButton = document.getElementById("showTags");
 
 const selectedpriorities = [];
