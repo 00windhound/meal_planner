@@ -9,21 +9,32 @@ const showTagsButton = document.getElementById("showTags");
 const selectedpriorities = [];
 
 
-addMealButton.addEventListener("click", () => {
+function start() {
+    console.log("script page started.");
+}
 
-    const mealName = mealInput.value.trim();
+start();    
 
-    if (mealName === "") {
-        return;
+
+// price, per serving numbers, servings per package, brand
+class ingredient {
+    constructor(name){
+        this.name = name;
     }
+}
 
-    const mealItem = document.createElement("li");
-    mealItem.textContent = mealName;
+// recipies 
+class recipe {
+    constructor(name, ingredients) {
+        this.name = name;
+    }
+}
 
-    mealList.appendChild(mealItem);
 
-    mealInput.value = "";
-});
+
+
+
+
 
 //prioritiesButton.addEventListener("click", () => {
    // const priorityDropDown = document.getElementById("priorityDropDown");
@@ -33,15 +44,7 @@ addMealButton.addEventListener("click", () => {
 //})
 
 
-addIngredientButton.addEventListener("click", () => {
-    const ingredientName = prompt("Enter the name of the ingredient:");// not working
-    if (ingredientName) {
-        const newIngredient = document.createElement("li");
-        newIngredient.textContent = ingredientName;
-        ingredientList.appendChild(newIngredient);
-    }
-});
 
-showTagsButton.addEventListener("click", () => {
-    alert(`Selected tags: ${selectedpriorities.join(", ")}`);
-});
+
+
+
