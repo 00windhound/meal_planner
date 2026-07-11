@@ -11,24 +11,24 @@
         <h1>Meal Planner</h1>
         <button id = "menuButton">Menu</button>
         <nav class="headerButtons">
-            <button id = "ingredientsButton"  onclick="window.location.href='front end/ingredients.html'">Ingredients</button>
-            <button id = "recipesButton" onclick="window.location.href='front end/recipies.html'">Recipes</button>
-            <button id = "plannerButton" onclick="window.location.href='front end/planner.html'">Planner</button>
-            <details id="priorities">
-                <summary>priorities</summary>
-                <label><input type="checkbox" value = "price"> price</label><br>
-                <label><input type="checkbox" value = "calories"> calories</label><br>
-                <label><input type="checkbox" value = "protein"> protein</label><br>
-                <label><input type="checkbox" value = "sodium"> sodium</label><br>
-            </details>
-            <details id="help">
-                <summary>Help</summary>
-                <p>This is a simple meal planner. You can add meals, ingredients, and set priorities.</p>
-            </details>
+            <button id="ingredientsButton"  onclick="window.location.href='front end/ingredients.html'">Ingredients</button>
+            <button id="recipesButton" onclick="window.location.href='front end/recipies.html'">Recipes</button>
+            <button id="plannerButton" onclick="window.location.href='front end/planner.html'">Planner</button>
+            <button id="prioritiesButton">priorities</button>  
+            <button id="helpButton">Help</button>         
             <button id="logOutButton">Log Out</button>
         </nav>
     </header>
-    
+    <form id="mealForm">
+        <h4>Set Priorities</h4>
+        <input type="checkbox" value="price" id="priceCheckbox"> Price<br>
+        <input type="checkbox" value="calories" id="caloriesCheckbox"> Calories<br>
+        <input type="checkbox" value="protein" id="proteinCheckbox"> Protein<br>
+    </form>
+
+    <div id="helpwindow">
+        <p>This is a simple meal planner. You can add meals, ingredients, and set priorities.
+    </div>
 
     <div id = plannedMeals>
         <h2>Weekly Meals</h2>
