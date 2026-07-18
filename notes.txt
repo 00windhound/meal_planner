@@ -1,0 +1,5 @@
+get the menu to open and close when i hit the menu button,
+might be able to do that with bootstrap.
+
+need to learn back end stuff.
+I can at least make the website look good like it should function 

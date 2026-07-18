@@ -36,14 +36,6 @@ class recipe {
 
 
 
-//prioritiesButton.addEventListener("click", () => {
-   // const priorityDropDown = document.getElementById("priorityDropDown");
-    document.querySelectorAll('input[type="checkbox"]:checked').forEach(box => {
-        selectedpriorities.push(box.value);
-    });
-//})
-
-
 
 
 
