@@ -1,2 +1,2 @@
-running notes to keep me on track 
-i need to learn react.
+to restart live server
+    in terminal: npm.cmd run dev
