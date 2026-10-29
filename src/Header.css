@@ -1,0 +1,13 @@
+header{
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    background-color: rgb(95, 92, 100);
+}

@@ -1,17 +1,15 @@
-
+import './Header.css'
 
 function Header() {
     return(
         <header>
             <h1>home page</h1>
             <nav>
-                <ul>
-                    <li><a href="#">food list</a></li>
-                    <li><a href="#"> planner </a></li> 
-                    <li><a href="#">priorities</a></li>
-                    <li><a href="#">log out</a></li>
-                </ul>
-
+                test the nav bar
+                <a href="#">food list</a>
+                <a href="#"> planner </a>
+                <a href="#">priorities</a>
+                <a href="#">log out</a>
             </nav>
         </header>
     )

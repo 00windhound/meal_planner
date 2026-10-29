@@ -1,10 +1,11 @@
-
+import './ChartWindow.css'
 
 
 function ChartWindow(){
     return(
-        <div>
-            this is where charts like calories, weight, nutrients, and spending go
+        <div className="ChartWindow">
+            <div className="chart">chart here</div>
+            <div className="chart">chart here</div>
         </div>
     )
 }
