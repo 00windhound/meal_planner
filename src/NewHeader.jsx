@@ -1,11 +1,11 @@
 import './Header.css'
 
 function Header() {
+    console.error('HEADER COMPONENT RENDERED - TEST 789')
     return(
         <header>
-            <h1>home page</h1>
+            <h1>home page test 78</h1>
             <nav>
-                test the nav bar
                 <a href="#">food list</a>
                 <a href="#"> planner </a>
                 <a href="#">priorities</a>
