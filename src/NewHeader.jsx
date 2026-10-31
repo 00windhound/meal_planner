@@ -4,7 +4,7 @@ function Header() {
     console.error('HEADER COMPONENT RENDERED - TEST 789')
     return(
         <header>
-            <h1>home page test 78</h1>
+            <h1>home page</h1>
             <nav>
                 <a href="#">food list</a>
                 <a href="#"> planner </a>
