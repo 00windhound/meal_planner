@@ -1,6 +1,9 @@
 to restart live server
     in terminal: npm.cmd run dev
 
-kill whatever the sound efects are!
+kill sounds!
+    ctrl shift p
+    Help: List Signal Sounds
+
 
 

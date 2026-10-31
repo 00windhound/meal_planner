@@ -1,15 +1,14 @@
-import './Header.css'
+import './NewHeader.css'
 
 function Header() {
-    console.error('HEADER COMPONENT RENDERED - TEST 789')
     return(
         <header>
             <h1>home page</h1>
             <nav>
-                <a href="#">food list</a>
-                <a href="#"> planner </a>
-                <a href="#">priorities</a>
-                <a href="#">log out</a>
+                <button>food list</button>
+                <button> planner </button>
+                <button>priorities</button>
+                <button>log out</button>
             </nav>
         </header>
     )

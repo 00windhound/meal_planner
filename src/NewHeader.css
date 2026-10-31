@@ -3,6 +3,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
     background-color: rgb(95, 92, 100);
+    margin: 0;
 }
 
 nav{
@@ -10,4 +11,11 @@ nav{
     flex-direction: row;
     gap: 20px;
     
+    
+}
+
+button{
+    max-height: 3em;
+    margin: 1em;
+    background-color: red;
 }
