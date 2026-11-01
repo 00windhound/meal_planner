@@ -1,0 +1,11 @@
+.log{
+    background-color: rgb(135, 111, 169);
+    
+    height: 8em;
+}
+
+.logbutton{
+    height: 3em;
+    width: 6em;
+    margin: 1em;
+}

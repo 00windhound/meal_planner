@@ -1,14 +1,17 @@
 import Header from './NewHeader.jsx'
 import ChartWindow from './ChartWindow.jsx'
 import Log from './Log.jsx'
+import './App.css'
 
 
 function App() {
   return(
   <>
-    <Header/>
-    <ChartWindow/>
-    <Log/>
+  <Header/>
+    <div className="dashboard">
+      <ChartWindow/>
+      <Log/>
+    </div>
   </>
   )
 }

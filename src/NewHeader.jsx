@@ -5,10 +5,10 @@ function Header() {
         <header>
             <h1>home page</h1>
             <nav>
-                <button>food list</button>
-                <button> planner </button>
-                <button>priorities</button>
-                <button>log out</button>
+                <button className="headerButton">food list</button>
+                <button className="headerButton"> planner </button>
+                <button className="headerButton">priorities</button>
+                <button className="headerButton">log out</button>
             </nav>
         </header>
     )

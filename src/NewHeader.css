@@ -14,8 +14,7 @@ nav{
     
 }
 
-button{
+.headerButton{
     max-height: 3em;
     margin: 1em;
-    background-color: red;
 }
